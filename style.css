@@ -1,0 +1,118 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: black;
+    color: white;
+}
+
+header {
+    background:white;
+    color:black;
+    padding: 50px;
+    text-align: center;
+    
+}
+
+header h1 {
+    margin: 0;
+}
+
+section {
+    padding: 2rem;
+    max-width: 900px;
+    margin: auto;
+    
+}
+
+section h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+    
+}
+
+#about img {
+    display: block;
+    max-width: 200px;
+    margin: 1rem auto;
+    border-radius: 100%;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+ul li {
+    display: inline-block;
+    margin: 0.5rem;
+    background:white;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    color: black;
+}
+#resume a {
+    display: block;
+    text-align: center;
+    background:white;
+    color: black;
+    padding: 0.7rem;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+#resume a:hover {
+    background:yellow;
+}
+
+footer {
+    text-align: center;
+    background:white;
+    color:darkblue;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+    margin: 1rem;
+}
+
+/* Button */
+.dropbtn {
+    background-color:white;
+    color:black;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+/* Hidden content */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    min-width: 300px;
+    padding: 10px;
+    border-radius: 6px;
+    box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+    z-index: 1;
+    text-align: center;
+    color: black;
+}
+
+/* Show content on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Project images inside dropdown */
+.dropdown-content img {
+    max-width: 100%;
+    border-radius: 6px;
+    margin-bottom: 10px;
+}

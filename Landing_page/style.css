@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  line-height: 1.6;
+}
+
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background:black;
+  padding: 15px 30px;
+  color: white;
+}
+
+
+
+header nav a {
+  color: white;
+  margin-left: 20px;
+  text-decoration: none;
+}
+
+header nav a:hover {
+  text-decoration: underline;
+}
+
+
+.hero {
+  background: linear-gradient(to right,#333,#ddd);
+  color: white;
+  text-align: center;
+  padding: 10px 20px;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.8);
+
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.8);
+}
+
+.btn {
+  background: white;
+  color: #333;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  background: #ddd;
+}
+
+
+.features {
+  display: flex;
+  justify-content: space-around;
+  padding: 50px 20px;
+  background:black;
+  color: white;
+}
+
+.feature {
+  max-width: 300px;
+  text-align: center;
+  
+}
+
+
+.about {
+  padding: 50px 20px;
+  text-align: center;
+  color: white;
+  font-size: 1.06rem;
+  background: linear-gradient(to right, #333,#ddd);
+}
+
+.about p ,h2{
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.8);
+}
+.contact {
+  padding: 50px 20px;
+  text-align: center;
+  background-color:black;
+  color: white;
+}
+
+
+.hobbies{
+    color: white;
+    text-align: center;
+    background: linear-gradient(to right,#333,#ddd);
+}
+
+.hobbies h2{
+    font-size: x-large;
+    text-align: center;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.8);
+}
+.hobby ul{
+    list-style-type: square;
+    list-style-position: inside;
+    padding-left: 30px;
+    margin-top: 10px;
+    font-size: 1.15rem;
+    text-align: left;
+    display: inline-block;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.8);
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: black;
+  color: white;
+}
